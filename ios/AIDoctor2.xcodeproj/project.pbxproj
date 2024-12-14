@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AIDoctor2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AIDoctor2Tests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-AIDoctor2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AIDoctor2.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-AIDoctor2-AIDoctor2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AIDoctor2-AIDoctor2Tests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		164CDEF8F099436E85244A06 /* BodoniModa_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40576214689F4068ABFA67A0 /* BodoniModa_18pt-Black.ttf */; };
+		324FC96D8FCB4E3CABFD838F /* BodoniModa_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93FC63542C4245DF82B8BD07 /* BodoniModa_18pt-BlackItalic.ttf */; };
+		F54BF18A4DBE4394BF542A99 /* BodoniModa_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C13CB2711A3481FACAB6241 /* BodoniModa_18pt-Bold.ttf */; };
+		D65A78115AEB4BE89D0D9F17 /* BodoniModa_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0512C6A3F4155B82D9E29 /* BodoniModa_18pt-BoldItalic.ttf */; };
+		4144FE65F553472C859CB1C9 /* BodoniModa_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD87C013979F418D85A2D2BA /* BodoniModa_18pt-ExtraBold.ttf */; };
+		B34916A36E9C49E9A5E631C6 /* BodoniModa_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B71E0E3EEFDF478C8D35077A /* BodoniModa_18pt-ExtraBoldItalic.ttf */; };
+		7FB59CEC76074B6EBE1EA6DE /* BodoniModa_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 874B1146F48F440F884DBFE6 /* BodoniModa_18pt-Italic.ttf */; };
+		E27D207211A6484B81939456 /* BodoniModa_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1664643CD04587838EC425 /* BodoniModa_18pt-Medium.ttf */; };
+		102FE1EC95684B3BB0FE9392 /* BodoniModa_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D1541A5DC8C41BE947D34AD /* BodoniModa_18pt-MediumItalic.ttf */; };
+		7467386AA95C4BFEA8953DA6 /* BodoniModa_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D6352D9B345629D44F97E /* BodoniModa_18pt-Regular.ttf */; };
+		AB73873875D24B7B9A2D8228 /* BodoniModa_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4772D5DFE1D443E5ACEAE22D /* BodoniModa_18pt-SemiBold.ttf */; };
+		F2B0A49CF4E342C5817B4383 /* BodoniModa_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A31FC95A3F64E2498C1A544 /* BodoniModa_18pt-SemiBoldItalic.ttf */; };
+		6C7746AA206E4F5D82CCF023 /* BodoniModa_28pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 743EC0D8A15C411AA85CB2CF /* BodoniModa_28pt-Black.ttf */; };
+		0D3B0C7EB7114987A4812BDB /* BodoniModa_28pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C675240DFD749BDB5E76B54 /* BodoniModa_28pt-BlackItalic.ttf */; };
+		7A77CAE833D74A178A31186D /* BodoniModa_28pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB3EDEE45FB84E7494E0FABF /* BodoniModa_28pt-Bold.ttf */; };
+		B110A4D48CBC439D81AEF3D4 /* BodoniModa_28pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDA7B96DAE894C4A83C95C74 /* BodoniModa_28pt-BoldItalic.ttf */; };
+		1B50238565A24595BF3F1FEB /* BodoniModa_28pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36AE9DAC6DA54C4EB1EBE8BE /* BodoniModa_28pt-ExtraBold.ttf */; };
+		FCF2E4DDE87040C3B57069E3 /* BodoniModa_28pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7F1C724D1446193C61F75 /* BodoniModa_28pt-ExtraBoldItalic.ttf */; };
+		EFD855BE355E481386C414D9 /* BodoniModa_28pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFFD44ED13414C268FE1BEB2 /* BodoniModa_28pt-Italic.ttf */; };
+		9DDE8A8D48CE414EB17D3552 /* BodoniModa_28pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C889BF34AE445BCA92E9B11 /* BodoniModa_28pt-Medium.ttf */; };
+		60906AC296A34C2B9AE825FD /* BodoniModa_28pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83DE872A35D44257BD94236D /* BodoniModa_28pt-MediumItalic.ttf */; };
+		99B1EE1E986F4619AE9B9B59 /* BodoniModa_28pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5377E88367C4756AE481534 /* BodoniModa_28pt-Regular.ttf */; };
+		8DB1CEE798BA4EDE9E51DBFB /* BodoniModa_28pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC30CC0C43AA4A3DB3C1ADFF /* BodoniModa_28pt-SemiBold.ttf */; };
+		33372D54FADC480D862FBBDE /* BodoniModa_28pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003F8A2B4F934F3BB5981C54 /* BodoniModa_28pt-SemiBoldItalic.ttf */; };
+		59AD748E7540459288A3CA9A /* BodoniModa_48pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A29D73D4E0E64AA6B6C956FB /* BodoniModa_48pt-Black.ttf */; };
+		065BB0C27B2443949D785F38 /* BodoniModa_48pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D54723D741F74A389CEF7638 /* BodoniModa_48pt-BlackItalic.ttf */; };
+		DEB78114536147259DDE3022 /* BodoniModa_48pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5823454C930470F940FD077 /* BodoniModa_48pt-Bold.ttf */; };
+		3543476A8BAF4148AB0249D7 /* BodoniModa_48pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E151079A0A44142AA21EB81 /* BodoniModa_48pt-BoldItalic.ttf */; };
+		3E2B3B1047304AA9898E5807 /* BodoniModa_48pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F987C0F1C34021B8D8E9B6 /* BodoniModa_48pt-ExtraBold.ttf */; };
+		EE3FB0C858AC4ADAB7B1CA71 /* BodoniModa_48pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A77135EB41240DC838D4AF8 /* BodoniModa_48pt-ExtraBoldItalic.ttf */; };
+		C6AB0233045345228BB3DA52 /* BodoniModa_48pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E863240497F34BAFB7F48B08 /* BodoniModa_48pt-Italic.ttf */; };
+		EEDA94751FB643F989CC036A /* BodoniModa_48pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FED77CC7E1B485C8B9DDE11 /* BodoniModa_48pt-Medium.ttf */; };
+		AA061F833A9546068D491F79 /* BodoniModa_48pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5D8F7E85E19432CA3169313 /* BodoniModa_48pt-MediumItalic.ttf */; };
+		1CF7787F91004446AAF542C7 /* BodoniModa_48pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B67BAD86FEA43CABBC38DB7 /* BodoniModa_48pt-Regular.ttf */; };
+		FA209C1642124B5F86D874BC /* BodoniModa_48pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E72654C0CFD341209C135B5A /* BodoniModa_48pt-SemiBold.ttf */; };
+		F92474DB86234CD6A927DB13 /* BodoniModa_48pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5D52A2BE7847259F32669D /* BodoniModa_48pt-SemiBoldItalic.ttf */; };
+		98741C513E7842649CDE8FC3 /* BodoniModa_72pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8FCA91A274D4C40BEDBEF47 /* BodoniModa_72pt-Black.ttf */; };
+		CFA06400EA324086B7F598E6 /* BodoniModa_72pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 059E368A60D94C5DB5C0D691 /* BodoniModa_72pt-BlackItalic.ttf */; };
+		B2F802DF0C19404F87F5F1B5 /* BodoniModa_72pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 529DDB8FA6C74FE89C10F220 /* BodoniModa_72pt-Bold.ttf */; };
+		3ED4D86DE3374289B28B9BE5 /* BodoniModa_72pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6E3FB58FE094365B044F424 /* BodoniModa_72pt-BoldItalic.ttf */; };
+		8843D95D16264B51A57B3067 /* BodoniModa_72pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB724B34FE0A440090629496 /* BodoniModa_72pt-ExtraBold.ttf */; };
+		25969803162C4B0295F69B8F /* BodoniModa_72pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 517CA8CB881D404FBAFBFD75 /* BodoniModa_72pt-ExtraBoldItalic.ttf */; };
+		3ACEA7888E11481D9B309CB4 /* BodoniModa_72pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D97D63049543497984F57FDF /* BodoniModa_72pt-Italic.ttf */; };
+		799F201FF6A4486B8B2CCF93 /* BodoniModa_72pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FB53E9A8CB642E1A2907F23 /* BodoniModa_72pt-Medium.ttf */; };
+		FDBEC58E72BF478DB9F0D362 /* BodoniModa_72pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A423EBB0C5A4CF8BBACDBEB /* BodoniModa_72pt-MediumItalic.ttf */; };
+		F745F659DA4A45BA95BB5BF0 /* BodoniModa_72pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC161CC43BA41DBA91BE5C1 /* BodoniModa_72pt-Regular.ttf */; };
+		8987FE9906BE4148AD0BFC7E /* BodoniModa_72pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C5208B80C1C42929EDD1729 /* BodoniModa_72pt-SemiBold.ttf */; };
+		69D8F69BE8C14899B619B186 /* BodoniModa_72pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73DAE7A19A0B4D4081E0EE95 /* BodoniModa_72pt-SemiBoldItalic.ttf */; };
+		B778B4D6206E407DB32EC6A1 /* BodoniModa_9pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A3E64D57C14ED2B405BB0E /* BodoniModa_9pt-Black.ttf */; };
+		84CDB0ECFADA4D879BE89E14 /* BodoniModa_9pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07C579D1602D44A4A0E53335 /* BodoniModa_9pt-BlackItalic.ttf */; };
+		8B1F2A598358489493D8AAC7 /* BodoniModa_9pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC9E5571C7F24F0DB58A69E0 /* BodoniModa_9pt-Bold.ttf */; };
+		5AD19505860E4A71AF96671F /* BodoniModa_9pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7520AEDD0CA3447DB30644F3 /* BodoniModa_9pt-BoldItalic.ttf */; };
+		B59E7E84BBD848918FF89AB5 /* BodoniModa_9pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671D8EA44F8D467B87A844C7 /* BodoniModa_9pt-ExtraBold.ttf */; };
+		50E174DC93414DA99FE30CA9 /* BodoniModa_9pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBA16A1944DF416C927C4D15 /* BodoniModa_9pt-ExtraBoldItalic.ttf */; };
+		EBBEA25DF6C74E3B838A5928 /* BodoniModa_9pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B6A09903564D48A20719DD /* BodoniModa_9pt-Italic.ttf */; };
+		84692A59A8A942B89FC7CB4B /* BodoniModa_9pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D88ACA6E1DC345FFB0CBB5CA /* BodoniModa_9pt-Medium.ttf */; };
+		BD4689F5348B45DE8809FB1E /* BodoniModa_9pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB8C8A1522415FB30AE73A /* BodoniModa_9pt-MediumItalic.ttf */; };
+		6BF7C8D328504BD8BDD16C53 /* BodoniModa_9pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A6418FA39A45B39FE72E19 /* BodoniModa_9pt-Regular.ttf */; };
+		D7B07A748F934286B952255A /* BodoniModa_9pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BC12664F67499ABEE2606B /* BodoniModa_9pt-SemiBold.ttf */; };
+		3FF2BC9CE7944AFE8F4B54B6 /* BodoniModa_9pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFDF82A565B49F38CF5305F /* BodoniModa_9pt-SemiBoldItalic.ttf */; };
+		5997E51BD44F44D1AEBA4245 /* BodoniModa-Italic-VariableFont_opsz,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041F21C47FE24B59BA1A7839 /* BodoniModa-Italic-VariableFont_opsz,wght.ttf */; };
+		6CD427EC64F24AD59C6BB25F /* BodoniModa-VariableFont_opsz,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4839B750B1F43C5B79F7B63 /* BodoniModa-VariableFont_opsz,wght.ttf */; };
+		C99EBD238E864F82B87C14C6 /* GFSNeohellenic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42C6166A8EC7421D9408788E /* GFSNeohellenic-Bold.ttf */; };
+		50F21D257CE340B18532233A /* GFSNeohellenic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 609278B2B09B42B5A452291C /* GFSNeohellenic-BoldItalic.ttf */; };
+		4176D861779442819EF12018 /* GFSNeohellenic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69FF738336834AF4974FBFD8 /* GFSNeohellenic-Italic.ttf */; };
+		5A4F62622D914E88B3423A68 /* GFSNeohellenic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9440216BDCD4D02B3A7A9C9 /* GFSNeohellenic-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AIDoctor2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AIDoctor2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIDoctor2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AIDoctor2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIDoctor2Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AIDoctor2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIDoctor2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AIDoctor2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AIDoctor2/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AIDoctor2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AIDoctor2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AIDoctor2/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AIDoctor2-AIDoctor2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIDoctor2-AIDoctor2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-AIDoctor2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDoctor2.debug.xcconfig"; path = "Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-AIDoctor2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDoctor2.release.xcconfig"; path = "Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-AIDoctor2-AIDoctor2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDoctor2-AIDoctor2Tests.debug.xcconfig"; path = "Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-AIDoctor2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIDoctor2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AIDoctor2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-AIDoctor2-AIDoctor2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDoctor2-AIDoctor2Tests.release.xcconfig"; path = "Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		40576214689F4068ABFA67A0 /* BodoniModa_18pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Black.ttf"; path = "../assets/fonts/BodoniModa_18pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93FC63542C4245DF82B8BD07 /* BodoniModa_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModa_18pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C13CB2711A3481FACAB6241 /* BodoniModa_18pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_18pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BD0512C6A3F4155B82D9E29 /* BodoniModa_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_18pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD87C013979F418D85A2D2BA /* BodoniModa_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModa_18pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B71E0E3EEFDF478C8D35077A /* BodoniModa_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		874B1146F48F440F884DBFE6 /* BodoniModa_18pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_18pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E1664643CD04587838EC425 /* BodoniModa_18pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Medium.ttf"; path = "../assets/fonts/BodoniModa_18pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D1541A5DC8C41BE947D34AD /* BodoniModa_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModa_18pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A4D6352D9B345629D44F97E /* BodoniModa_18pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-Regular.ttf"; path = "../assets/fonts/BodoniModa_18pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4772D5DFE1D443E5ACEAE22D /* BodoniModa_18pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModa_18pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A31FC95A3F64E2498C1A544 /* BodoniModa_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_18pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		743EC0D8A15C411AA85CB2CF /* BodoniModa_28pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Black.ttf"; path = "../assets/fonts/BodoniModa_28pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C675240DFD749BDB5E76B54 /* BodoniModa_28pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB3EDEE45FB84E7494E0FABF /* BodoniModa_28pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_28pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDA7B96DAE894C4A83C95C74 /* BodoniModa_28pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36AE9DAC6DA54C4EB1EBE8BE /* BodoniModa_28pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModa_28pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6EC7F1C724D1446193C61F75 /* BodoniModa_28pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EFFD44ED13414C268FE1BEB2 /* BodoniModa_28pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_28pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C889BF34AE445BCA92E9B11 /* BodoniModa_28pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Medium.ttf"; path = "../assets/fonts/BodoniModa_28pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83DE872A35D44257BD94236D /* BodoniModa_28pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B5377E88367C4756AE481534 /* BodoniModa_28pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Regular.ttf"; path = "../assets/fonts/BodoniModa_28pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC30CC0C43AA4A3DB3C1ADFF /* BodoniModa_28pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModa_28pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		003F8A2B4F934F3BB5981C54 /* BodoniModa_28pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A29D73D4E0E64AA6B6C956FB /* BodoniModa_48pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Black.ttf"; path = "../assets/fonts/BodoniModa_48pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D54723D741F74A389CEF7638 /* BodoniModa_48pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModa_48pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5823454C930470F940FD077 /* BodoniModa_48pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_48pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E151079A0A44142AA21EB81 /* BodoniModa_48pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_48pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3F987C0F1C34021B8D8E9B6 /* BodoniModa_48pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModa_48pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A77135EB41240DC838D4AF8 /* BodoniModa_48pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_48pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E863240497F34BAFB7F48B08 /* BodoniModa_48pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_48pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1FED77CC7E1B485C8B9DDE11 /* BodoniModa_48pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Medium.ttf"; path = "../assets/fonts/BodoniModa_48pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5D8F7E85E19432CA3169313 /* BodoniModa_48pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModa_48pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B67BAD86FEA43CABBC38DB7 /* BodoniModa_48pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-Regular.ttf"; path = "../assets/fonts/BodoniModa_48pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E72654C0CFD341209C135B5A /* BodoniModa_48pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModa_48pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C5D52A2BE7847259F32669D /* BodoniModa_48pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_48pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_48pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8FCA91A274D4C40BEDBEF47 /* BodoniModa_72pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Black.ttf"; path = "../assets/fonts/BodoniModa_72pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		059E368A60D94C5DB5C0D691 /* BodoniModa_72pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModa_72pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		529DDB8FA6C74FE89C10F220 /* BodoniModa_72pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_72pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6E3FB58FE094365B044F424 /* BodoniModa_72pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_72pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB724B34FE0A440090629496 /* BodoniModa_72pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModa_72pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		517CA8CB881D404FBAFBFD75 /* BodoniModa_72pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_72pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D97D63049543497984F57FDF /* BodoniModa_72pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_72pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6FB53E9A8CB642E1A2907F23 /* BodoniModa_72pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Medium.ttf"; path = "../assets/fonts/BodoniModa_72pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A423EBB0C5A4CF8BBACDBEB /* BodoniModa_72pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModa_72pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACC161CC43BA41DBA91BE5C1 /* BodoniModa_72pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-Regular.ttf"; path = "../assets/fonts/BodoniModa_72pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C5208B80C1C42929EDD1729 /* BodoniModa_72pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModa_72pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73DAE7A19A0B4D4081E0EE95 /* BodoniModa_72pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_72pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_72pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8A3E64D57C14ED2B405BB0E /* BodoniModa_9pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Black.ttf"; path = "../assets/fonts/BodoniModa_9pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07C579D1602D44A4A0E53335 /* BodoniModa_9pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC9E5571C7F24F0DB58A69E0 /* BodoniModa_9pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Bold.ttf"; path = "../assets/fonts/BodoniModa_9pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7520AEDD0CA3447DB30644F3 /* BodoniModa_9pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		671D8EA44F8D467B87A844C7 /* BodoniModa_9pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModa_9pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBA16A1944DF416C927C4D15 /* BodoniModa_9pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80B6A09903564D48A20719DD /* BodoniModa_9pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_9pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D88ACA6E1DC345FFB0CBB5CA /* BodoniModa_9pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Medium.ttf"; path = "../assets/fonts/BodoniModa_9pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7ADB8C8A1522415FB30AE73A /* BodoniModa_9pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		98A6418FA39A45B39FE72E19 /* BodoniModa_9pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-Regular.ttf"; path = "../assets/fonts/BodoniModa_9pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46BC12664F67499ABEE2606B /* BodoniModa_9pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModa_9pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEFDF82A565B49F38CF5305F /* BodoniModa_9pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_9pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModa_9pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		041F21C47FE24B59BA1A7839 /* BodoniModa-Italic-VariableFont_opsz,wght.ttf */ = {isa = PBXFileReference; name = "BodoniModa-Italic-VariableFont_opsz,wght.ttf"; path = "../assets/fonts/BodoniModa-Italic-VariableFont_opsz,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4839B750B1F43C5B79F7B63 /* BodoniModa-VariableFont_opsz,wght.ttf */ = {isa = PBXFileReference; name = "BodoniModa-VariableFont_opsz,wght.ttf"; path = "../assets/fonts/BodoniModa-VariableFont_opsz,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42C6166A8EC7421D9408788E /* GFSNeohellenic-Bold.ttf */ = {isa = PBXFileReference; name = "GFSNeohellenic-Bold.ttf"; path = "../assets/fonts/GFSNeohellenic-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		609278B2B09B42B5A452291C /* GFSNeohellenic-BoldItalic.ttf */ = {isa = PBXFileReference; name = "GFSNeohellenic-BoldItalic.ttf"; path = "../assets/fonts/GFSNeohellenic-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69FF738336834AF4974FBFD8 /* GFSNeohellenic-Italic.ttf */ = {isa = PBXFileReference; name = "GFSNeohellenic-Italic.ttf"; path = "../assets/fonts/GFSNeohellenic-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9440216BDCD4D02B3A7A9C9 /* GFSNeohellenic-Regular.ttf */ = {isa = PBXFileReference; name = "GFSNeohellenic-Regular.ttf"; path = "../assets/fonts/GFSNeohellenic-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-AIDoctor2-AIDoctor2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-AIDoctor2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AIDoctor2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AIDoctor2Tests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AIDoctor2Tests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AIDoctor2 */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AIDoctor2;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-AIDoctor2.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AIDoctor2-AIDoctor2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AIDoctor2 */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AIDoctor2Tests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				1DD0EB7DDFD94043A7970A49 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AIDoctor2.app */,
+				00E356EE1AD99517003FC87E /* AIDoctor2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-AIDoctor2.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-AIDoctor2.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-AIDoctor2-AIDoctor2Tests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-AIDoctor2-AIDoctor2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1DD0EB7DDFD94043A7970A49 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				40576214689F4068ABFA67A0 /* BodoniModa_18pt-Black.ttf */,
+				93FC63542C4245DF82B8BD07 /* BodoniModa_18pt-BlackItalic.ttf */,
+				8C13CB2711A3481FACAB6241 /* BodoniModa_18pt-Bold.ttf */,
+				6BD0512C6A3F4155B82D9E29 /* BodoniModa_18pt-BoldItalic.ttf */,
+				BD87C013979F418D85A2D2BA /* BodoniModa_18pt-ExtraBold.ttf */,
+				B71E0E3EEFDF478C8D35077A /* BodoniModa_18pt-ExtraBoldItalic.ttf */,
+				874B1146F48F440F884DBFE6 /* BodoniModa_18pt-Italic.ttf */,
+				3E1664643CD04587838EC425 /* BodoniModa_18pt-Medium.ttf */,
+				3D1541A5DC8C41BE947D34AD /* BodoniModa_18pt-MediumItalic.ttf */,
+				0A4D6352D9B345629D44F97E /* BodoniModa_18pt-Regular.ttf */,
+				4772D5DFE1D443E5ACEAE22D /* BodoniModa_18pt-SemiBold.ttf */,
+				1A31FC95A3F64E2498C1A544 /* BodoniModa_18pt-SemiBoldItalic.ttf */,
+				743EC0D8A15C411AA85CB2CF /* BodoniModa_28pt-Black.ttf */,
+				2C675240DFD749BDB5E76B54 /* BodoniModa_28pt-BlackItalic.ttf */,
+				DB3EDEE45FB84E7494E0FABF /* BodoniModa_28pt-Bold.ttf */,
+				BDA7B96DAE894C4A83C95C74 /* BodoniModa_28pt-BoldItalic.ttf */,
+				36AE9DAC6DA54C4EB1EBE8BE /* BodoniModa_28pt-ExtraBold.ttf */,
+				6EC7F1C724D1446193C61F75 /* BodoniModa_28pt-ExtraBoldItalic.ttf */,
+				EFFD44ED13414C268FE1BEB2 /* BodoniModa_28pt-Italic.ttf */,
+				5C889BF34AE445BCA92E9B11 /* BodoniModa_28pt-Medium.ttf */,
+				83DE872A35D44257BD94236D /* BodoniModa_28pt-MediumItalic.ttf */,
+				B5377E88367C4756AE481534 /* BodoniModa_28pt-Regular.ttf */,
+				CC30CC0C43AA4A3DB3C1ADFF /* BodoniModa_28pt-SemiBold.ttf */,
+				003F8A2B4F934F3BB5981C54 /* BodoniModa_28pt-SemiBoldItalic.ttf */,
+				A29D73D4E0E64AA6B6C956FB /* BodoniModa_48pt-Black.ttf */,
+				D54723D741F74A389CEF7638 /* BodoniModa_48pt-BlackItalic.ttf */,
+				E5823454C930470F940FD077 /* BodoniModa_48pt-Bold.ttf */,
+				8E151079A0A44142AA21EB81 /* BodoniModa_48pt-BoldItalic.ttf */,
+				C3F987C0F1C34021B8D8E9B6 /* BodoniModa_48pt-ExtraBold.ttf */,
+				8A77135EB41240DC838D4AF8 /* BodoniModa_48pt-ExtraBoldItalic.ttf */,
+				E863240497F34BAFB7F48B08 /* BodoniModa_48pt-Italic.ttf */,
+				1FED77CC7E1B485C8B9DDE11 /* BodoniModa_48pt-Medium.ttf */,
+				A5D8F7E85E19432CA3169313 /* BodoniModa_48pt-MediumItalic.ttf */,
+				2B67BAD86FEA43CABBC38DB7 /* BodoniModa_48pt-Regular.ttf */,
+				E72654C0CFD341209C135B5A /* BodoniModa_48pt-SemiBold.ttf */,
+				6C5D52A2BE7847259F32669D /* BodoniModa_48pt-SemiBoldItalic.ttf */,
+				B8FCA91A274D4C40BEDBEF47 /* BodoniModa_72pt-Black.ttf */,
+				059E368A60D94C5DB5C0D691 /* BodoniModa_72pt-BlackItalic.ttf */,
+				529DDB8FA6C74FE89C10F220 /* BodoniModa_72pt-Bold.ttf */,
+				E6E3FB58FE094365B044F424 /* BodoniModa_72pt-BoldItalic.ttf */,
+				EB724B34FE0A440090629496 /* BodoniModa_72pt-ExtraBold.ttf */,
+				517CA8CB881D404FBAFBFD75 /* BodoniModa_72pt-ExtraBoldItalic.ttf */,
+				D97D63049543497984F57FDF /* BodoniModa_72pt-Italic.ttf */,
+				6FB53E9A8CB642E1A2907F23 /* BodoniModa_72pt-Medium.ttf */,
+				0A423EBB0C5A4CF8BBACDBEB /* BodoniModa_72pt-MediumItalic.ttf */,
+				ACC161CC43BA41DBA91BE5C1 /* BodoniModa_72pt-Regular.ttf */,
+				5C5208B80C1C42929EDD1729 /* BodoniModa_72pt-SemiBold.ttf */,
+				73DAE7A19A0B4D4081E0EE95 /* BodoniModa_72pt-SemiBoldItalic.ttf */,
+				F8A3E64D57C14ED2B405BB0E /* BodoniModa_9pt-Black.ttf */,
+				07C579D1602D44A4A0E53335 /* BodoniModa_9pt-BlackItalic.ttf */,
+				CC9E5571C7F24F0DB58A69E0 /* BodoniModa_9pt-Bold.ttf */,
+				7520AEDD0CA3447DB30644F3 /* BodoniModa_9pt-BoldItalic.ttf */,
+				671D8EA44F8D467B87A844C7 /* BodoniModa_9pt-ExtraBold.ttf */,
+				EBA16A1944DF416C927C4D15 /* BodoniModa_9pt-ExtraBoldItalic.ttf */,
+				80B6A09903564D48A20719DD /* BodoniModa_9pt-Italic.ttf */,
+				D88ACA6E1DC345FFB0CBB5CA /* BodoniModa_9pt-Medium.ttf */,
+				7ADB8C8A1522415FB30AE73A /* BodoniModa_9pt-MediumItalic.ttf */,
+				98A6418FA39A45B39FE72E19 /* BodoniModa_9pt-Regular.ttf */,
+				46BC12664F67499ABEE2606B /* BodoniModa_9pt-SemiBold.ttf */,
+				BEFDF82A565B49F38CF5305F /* BodoniModa_9pt-SemiBoldItalic.ttf */,
+				041F21C47FE24B59BA1A7839 /* BodoniModa-Italic-VariableFont_opsz,wght.ttf */,
+				F4839B750B1F43C5B79F7B63 /* BodoniModa-VariableFont_opsz,wght.ttf */,
+				42C6166A8EC7421D9408788E /* GFSNeohellenic-Bold.ttf */,
+				609278B2B09B42B5A452291C /* GFSNeohellenic-BoldItalic.ttf */,
+				69FF738336834AF4974FBFD8 /* GFSNeohellenic-Italic.ttf */,
+				F9440216BDCD4D02B3A7A9C9 /* GFSNeohellenic-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AIDoctor2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AIDoctor2Tests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AIDoctor2Tests;
+			productName = AIDoctor2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* AIDoctor2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AIDoctor2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AIDoctor2" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIDoctor2;
+			productName = AIDoctor2;
+			productReference = 13B07F961A680F5B00A75B9A /* AIDoctor2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AIDoctor2" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AIDoctor2 */,
+				00E356ED1AD99517003FC87E /* AIDoctor2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				164CDEF8F099436E85244A06 /* BodoniModa_18pt-Black.ttf in Resources */,
+				324FC96D8FCB4E3CABFD838F /* BodoniModa_18pt-BlackItalic.ttf in Resources */,
+				F54BF18A4DBE4394BF542A99 /* BodoniModa_18pt-Bold.ttf in Resources */,
+				D65A78115AEB4BE89D0D9F17 /* BodoniModa_18pt-BoldItalic.ttf in Resources */,
+				4144FE65F553472C859CB1C9 /* BodoniModa_18pt-ExtraBold.ttf in Resources */,
+				B34916A36E9C49E9A5E631C6 /* BodoniModa_18pt-ExtraBoldItalic.ttf in Resources */,
+				7FB59CEC76074B6EBE1EA6DE /* BodoniModa_18pt-Italic.ttf in Resources */,
+				E27D207211A6484B81939456 /* BodoniModa_18pt-Medium.ttf in Resources */,
+				102FE1EC95684B3BB0FE9392 /* BodoniModa_18pt-MediumItalic.ttf in Resources */,
+				7467386AA95C4BFEA8953DA6 /* BodoniModa_18pt-Regular.ttf in Resources */,
+				AB73873875D24B7B9A2D8228 /* BodoniModa_18pt-SemiBold.ttf in Resources */,
+				F2B0A49CF4E342C5817B4383 /* BodoniModa_18pt-SemiBoldItalic.ttf in Resources */,
+				6C7746AA206E4F5D82CCF023 /* BodoniModa_28pt-Black.ttf in Resources */,
+				0D3B0C7EB7114987A4812BDB /* BodoniModa_28pt-BlackItalic.ttf in Resources */,
+				7A77CAE833D74A178A31186D /* BodoniModa_28pt-Bold.ttf in Resources */,
+				B110A4D48CBC439D81AEF3D4 /* BodoniModa_28pt-BoldItalic.ttf in Resources */,
+				1B50238565A24595BF3F1FEB /* BodoniModa_28pt-ExtraBold.ttf in Resources */,
+				FCF2E4DDE87040C3B57069E3 /* BodoniModa_28pt-ExtraBoldItalic.ttf in Resources */,
+				EFD855BE355E481386C414D9 /* BodoniModa_28pt-Italic.ttf in Resources */,
+				9DDE8A8D48CE414EB17D3552 /* BodoniModa_28pt-Medium.ttf in Resources */,
+				60906AC296A34C2B9AE825FD /* BodoniModa_28pt-MediumItalic.ttf in Resources */,
+				99B1EE1E986F4619AE9B9B59 /* BodoniModa_28pt-Regular.ttf in Resources */,
+				8DB1CEE798BA4EDE9E51DBFB /* BodoniModa_28pt-SemiBold.ttf in Resources */,
+				33372D54FADC480D862FBBDE /* BodoniModa_28pt-SemiBoldItalic.ttf in Resources */,
+				59AD748E7540459288A3CA9A /* BodoniModa_48pt-Black.ttf in Resources */,
+				065BB0C27B2443949D785F38 /* BodoniModa_48pt-BlackItalic.ttf in Resources */,
+				DEB78114536147259DDE3022 /* BodoniModa_48pt-Bold.ttf in Resources */,
+				3543476A8BAF4148AB0249D7 /* BodoniModa_48pt-BoldItalic.ttf in Resources */,
+				3E2B3B1047304AA9898E5807 /* BodoniModa_48pt-ExtraBold.ttf in Resources */,
+				EE3FB0C858AC4ADAB7B1CA71 /* BodoniModa_48pt-ExtraBoldItalic.ttf in Resources */,
+				C6AB0233045345228BB3DA52 /* BodoniModa_48pt-Italic.ttf in Resources */,
+				EEDA94751FB643F989CC036A /* BodoniModa_48pt-Medium.ttf in Resources */,
+				AA061F833A9546068D491F79 /* BodoniModa_48pt-MediumItalic.ttf in Resources */,
+				1CF7787F91004446AAF542C7 /* BodoniModa_48pt-Regular.ttf in Resources */,
+				FA209C1642124B5F86D874BC /* BodoniModa_48pt-SemiBold.ttf in Resources */,
+				F92474DB86234CD6A927DB13 /* BodoniModa_48pt-SemiBoldItalic.ttf in Resources */,
+				98741C513E7842649CDE8FC3 /* BodoniModa_72pt-Black.ttf in Resources */,
+				CFA06400EA324086B7F598E6 /* BodoniModa_72pt-BlackItalic.ttf in Resources */,
+				B2F802DF0C19404F87F5F1B5 /* BodoniModa_72pt-Bold.ttf in Resources */,
+				3ED4D86DE3374289B28B9BE5 /* BodoniModa_72pt-BoldItalic.ttf in Resources */,
+				8843D95D16264B51A57B3067 /* BodoniModa_72pt-ExtraBold.ttf in Resources */,
+				25969803162C4B0295F69B8F /* BodoniModa_72pt-ExtraBoldItalic.ttf in Resources */,
+				3ACEA7888E11481D9B309CB4 /* BodoniModa_72pt-Italic.ttf in Resources */,
+				799F201FF6A4486B8B2CCF93 /* BodoniModa_72pt-Medium.ttf in Resources */,
+				FDBEC58E72BF478DB9F0D362 /* BodoniModa_72pt-MediumItalic.ttf in Resources */,
+				F745F659DA4A45BA95BB5BF0 /* BodoniModa_72pt-Regular.ttf in Resources */,
+				8987FE9906BE4148AD0BFC7E /* BodoniModa_72pt-SemiBold.ttf in Resources */,
+				69D8F69BE8C14899B619B186 /* BodoniModa_72pt-SemiBoldItalic.ttf in Resources */,
+				B778B4D6206E407DB32EC6A1 /* BodoniModa_9pt-Black.ttf in Resources */,
+				84CDB0ECFADA4D879BE89E14 /* BodoniModa_9pt-BlackItalic.ttf in Resources */,
+				8B1F2A598358489493D8AAC7 /* BodoniModa_9pt-Bold.ttf in Resources */,
+				5AD19505860E4A71AF96671F /* BodoniModa_9pt-BoldItalic.ttf in Resources */,
+				B59E7E84BBD848918FF89AB5 /* BodoniModa_9pt-ExtraBold.ttf in Resources */,
+				50E174DC93414DA99FE30CA9 /* BodoniModa_9pt-ExtraBoldItalic.ttf in Resources */,
+				EBBEA25DF6C74E3B838A5928 /* BodoniModa_9pt-Italic.ttf in Resources */,
+				84692A59A8A942B89FC7CB4B /* BodoniModa_9pt-Medium.ttf in Resources */,
+				BD4689F5348B45DE8809FB1E /* BodoniModa_9pt-MediumItalic.ttf in Resources */,
+				6BF7C8D328504BD8BDD16C53 /* BodoniModa_9pt-Regular.ttf in Resources */,
+				D7B07A748F934286B952255A /* BodoniModa_9pt-SemiBold.ttf in Resources */,
+				3FF2BC9CE7944AFE8F4B54B6 /* BodoniModa_9pt-SemiBoldItalic.ttf in Resources */,
+				5997E51BD44F44D1AEBA4245 /* BodoniModa-Italic-VariableFont_opsz,wght.ttf in Resources */,
+				6CD427EC64F24AD59C6BB25F /* BodoniModa-VariableFont_opsz,wght.ttf in Resources */,
+				C99EBD238E864F82B87C14C6 /* GFSNeohellenic-Bold.ttf in Resources */,
+				50F21D257CE340B18532233A /* GFSNeohellenic-BoldItalic.ttf in Resources */,
+				4176D861779442819EF12018 /* GFSNeohellenic-Italic.ttf in Resources */,
+				5A4F62622D914E88B3423A68 /* GFSNeohellenic-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIDoctor2-AIDoctor2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIDoctor2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2/Pods-AIDoctor2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AIDoctor2-AIDoctor2Tests/Pods-AIDoctor2-AIDoctor2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AIDoctor2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AIDoctor2 */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-AIDoctor2-AIDoctor2Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AIDoctor2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIDoctor2.app/AIDoctor2";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-AIDoctor2-AIDoctor2Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AIDoctor2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIDoctor2.app/AIDoctor2";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-AIDoctor2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AIDoctor2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AIDoctor2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-AIDoctor2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AIDoctor2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AIDoctor2;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AIDoctor2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AIDoctor2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AIDoctor2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
